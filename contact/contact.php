@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="../main.css">
     
   </head>
   <body>
@@ -20,25 +20,25 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="./index.html">Hakkımda</a>
+                <a class="nav-link active text-light" aria-current="page" href="../index.html">Hakkımda</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="./ozgecmis.html">Özgeçmiş</a>
+                <a class="nav-link text-light" href="../ozgecmis.html">Özgeçmiş</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="./sehrim.html">Şehrim</a>
+                <a class="nav-link text-light" href="../sehrim.html">Şehrim</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="./mirasimiz.html">Mirasımız</a>
+                <a class="nav-link text-light" href="../mirasimiz.html">Mirasımız</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="./ilgi_alanlari.html">İlgi Alanları</a>
+                <a class="nav-link text-light" href="../ilgi_alanlari.html">İlgi Alanları</a>
               </li>
               
             </ul>
             <div class="ms-auto">
-                <a class="btn btn-outline-success " href="./contact.html" role="button">Contact</a>
-                <a class="btn btn-outline-light" href="./sign-in/index.html" role="button">Sign In</a>     
+                <a class="btn btn-outline-success " href="./contact.php" role="button">Contact</a>
+                <a class="btn btn-outline-light" href="../sign-in/index.html" role="button">Sign In</a>     
             </div>
           </div>
         </div>
