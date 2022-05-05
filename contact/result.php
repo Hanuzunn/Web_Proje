@@ -9,5 +9,15 @@
 <body>
     
 <h1>merhaba</h1>
+
+AD:<?php echo $_POST["ad"]; ?>
+<br>
+SOYAD: <?php echo $_POST["soyad"]; ?>
+<br>
+MAİL: <?php echo $_POST["mail"]; ?>
+<br>
+ŞİFRE: <?php echo $_POST["password"]; ?>
+
+
 </body>
 </html>
