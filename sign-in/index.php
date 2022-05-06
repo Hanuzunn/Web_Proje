@@ -6,6 +6,8 @@
 	if ($email=="" or $sifre=="")
 	{
 		echo "Lütfen Tüm Alanları Doldurun!";	
+		header("Refresh: 1; url=index.html");
+         exit();	
 	}
 	else
 	{
