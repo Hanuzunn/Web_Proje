@@ -17,7 +17,13 @@ SOYAD: <?php echo $_POST["soyad"]; ?>
 MAİL: <?php echo $_POST["mail"]; ?>
 <br>
 ŞİFRE: <?php echo $_POST["password"]; ?>
-
-
+<br>
+CİNSİYET: <?php echo $_POST["cinsiyet"]; ?>
+<br>
+İLGİ ALANI : <?php echo $_POST["ilgialani"]; ?>
+<br>
+AÇIKLAMA: <?php echo $_POST["aciklama"]; ?>
+<br>
+CV: <?php echo $_POST["dosya"]; ?>
 </body>
 </html>
