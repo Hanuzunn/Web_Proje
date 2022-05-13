@@ -5,7 +5,8 @@
  
 	if ($email=="" or $sifre=="")
 	{
-		echo "Lütfen Tüm Alanları Doldurun!";	
+		
+		ob_start();
 		header("Refresh: 1; url=index.html");
          exit();	
 	}
@@ -13,11 +14,14 @@
 	{
 		if ($email=="g171210041@gmail.com" && $sifre=="anan")
 		{
-			echo "<center>Hoşgeldiniz. G171210041.</center>";
+			
+			ob_start();
 			header("Refresh: 2; url=../index.html");
+			exit();
 		}
 		else		{ 
-            echo "<center>Kullanici Adi/Sifre Yanlis.<br></center>";
+            
+			ob_start();
 			header("Refresh: 1; url=index.html");
             exit();	
 		}
